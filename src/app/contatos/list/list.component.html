@@ -1,0 +1,11 @@
+<div class="comentarios">
+    <label class="label">Últimos Comentários</label>
+    <table class="table">
+        <tbody>
+            <tr *ngFor="let contato of contatos | async">
+                <td class="msg">{{contato.mensagem}}</td>
+                <td class="userName">{{contato.nome}}</td>
+            </tr>
+        </tbody>
+    </table>  
+</div>

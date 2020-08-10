@@ -1,0 +1,61 @@
+.comentarios {
+    position: absolute;
+    font-size: 50px;
+    color: #84087E;
+    top: 80vh;
+    left: 14vh;
+}
+
+.msg {
+    color: #515151;
+    font-size: 20px;
+    width: 165vh;
+    height: 10vh;
+}
+
+.userName {
+    padding-top: 20vh;
+    color: #515151;
+    font-size: 15px;
+    width: 20vh;
+    position: relative;
+    right: 162.5vh;
+    font-weight: bolder;
+}
+
+@media (max-width: 900px) {
+    .comentarios {
+        position: absolute;
+        margin-right: -10vh;
+        font-size: 20px;
+        color: #84087E;
+        top: 77vh;
+        left: 14vh;
+    }
+    
+    .label {
+        margin-left: -56px;
+    }
+
+    .table {
+        margin-left: -56px;
+    }
+
+    .msg {
+        padding-top: 20px;
+        font-size: 13px;
+        width: 24em;
+        padding-bottom: 10vh;
+        font-family: 'Rubik', sans-serif;
+    }
+
+    .userName {
+        font-size: 9px;
+        width: 24em;
+        padding-bottom: 10vh;
+        font-weight: bolder;
+    }
+
+    
+    
+}

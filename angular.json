@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "databizz"
+    }
+  },
+  "defaultProject": "databizz",
+  "cli": {
+    "analytics": false
+  }
 }

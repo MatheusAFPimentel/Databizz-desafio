@@ -1,0 +1,14 @@
+<form (ngSubmit)="onSubmit()">
+  <div class="content">
+    <h1 class="titulo"> Comentários </h1>
+    <label class="nome">Nome</label>
+    <br />
+    <input type="text" class="input" [(ngModel)]="contato.nome" name="nome" />
+    <label class="nome">Mensagem</label>
+    <br />
+    <textarea class="text" type="text" [(ngModel)]="contato.mensagem" name="mensagem"></textarea>
+    <button type="submit" class="button"> Adicionar </button>
+  </div>
+</form>
+
+<a href="https://www.databizz.com.br/"><div class="area"> </div></a>
